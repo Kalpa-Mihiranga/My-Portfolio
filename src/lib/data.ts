@@ -21,7 +21,7 @@ export const siteConfig = {
 };
 
 // ─── Projects ─────────────────────────────────────────────────────
-export type ProjectCategory = "Software" | "IOT" | "Data";
+export type ProjectCategory = "Software" | "IOT" | "Data" | "Design";
 
 export interface Project {
   id: string;
