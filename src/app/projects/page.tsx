@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { ArrowUpRight, TrendingUp, Globe } from "lucide-react";
 import { projects, type ProjectCategory } from "@/lib/data";
 
-const categories: ("All" | ProjectCategory)[] = ["All", "Software", "IOT", "Data"];
+const categories: ("All" | ProjectCategory)[] = ["All", "Software", "IOT", "Data", "Design"];
 
 export default function ProjectsPage() {
   const [active, setActive] = useState<"All" | ProjectCategory>("All");
